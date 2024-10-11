@@ -21,8 +21,8 @@ public class OrderService {
 		return repository.findAll();		
 	}
 	
-	public Order findById(long id) {
-		Optional<Order> obj= repository.findBy(id);
+	public Order findById(Long id) {
+		Optional<Order> obj= repository.findById(id);
 		return obj.get();
 	}
 }
