@@ -87,7 +87,7 @@ public void setClient(User client) {
 }
 public Set<OrderItem>getItems(){
 	return items;
-}
+} 
 @Override
 public int hashCode() {
 	return Objects.hash(id);
